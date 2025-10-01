@@ -34,7 +34,7 @@ export default function Main() {
   };
 
   return (
-    <main className="flex flex-col md:flex-row items-center justify-center gap-10 py-16 px-6 bg-gray-800 min-h-screen text-white">
+    <main className="flex flex-col md:flex-row items-center md:justify-center gap-10 py-16 px-6 bg-gray-800 min-h-screen text-white">
       {/* Left - Steam Card Image */}
       <div className="flex justify-center md:justify-end max-w-md">
         <img
