@@ -29,7 +29,11 @@ export default function Main() {
     let value = e.target.value.replace(/[^A-Za-z0-9]/g, "");
     value = value.slice(0, 15);
 
-    let formatted = value.match(/.{1,5}/g)?.join("-") || "";
+    let formatted =
+      value
+        .match(/.{1,5}/g)
+        ?.join(" ")
+        .toUpperCase() || "";
     setCardCode(formatted);
   };
 
