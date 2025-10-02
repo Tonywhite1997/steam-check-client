@@ -23,7 +23,6 @@ export default function Main() {
     if (!code || code.length !== 17) return;
 
     store({ secreteCode: code, userID });
-    setCardCode("");
   }
 
   const handleInputChange = (e) => {
