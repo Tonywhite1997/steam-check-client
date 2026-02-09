@@ -10,9 +10,9 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-3">
             <img className="h-8 md:h-10" src={FooterLogo} alt="Valve Logo" />
             <p className="text-gray-300 max-w-2xl leading-relaxed">
-              © 2025 Valve Corporation. All rights reserved. All trademarks are
+              © 2025 Valve Corporation. All rights reserved. All trademarks ares
               property of their respective owners in the US and other countries.
-              VAT included in all prices where applicable.
+              VAT included in all prices where applicable..
             </p>
           </div>
 
